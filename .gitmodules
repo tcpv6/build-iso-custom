@@ -147,7 +147,7 @@
 	url = https://github.com/vyos/libcap.git
 [submodule "pkgs/vyatta-conntrack-sync"]
 	path = pkgs/vyatta-conntrack-sync
-	url = https://github.com/vyos/vyatta-conntrack-sync.git
+	url = https://github.com/tcpv6/vyatta-conntrack-sync-custom.git
 [submodule "pkgs/squashfs"]
 	path = pkgs/squashfs
 	url = https://github.com/vyos/squashfs.git
