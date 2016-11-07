@@ -165,7 +165,7 @@
 	url = https://github.com/vyos/userspace-rcu.git
 [submodule "pkgs/vyatta-conntrack"]
 	path = pkgs/vyatta-conntrack
-	url = https://github.com/vyos/vyatta-conntrack.git
+	url = https://github.com/tcpv6/vyatta-conntrack-custom.git
 [submodule "pkgs/libnetfilter-conntrack"]
 	path = pkgs/libnetfilter-conntrack
 	url = https://github.com/vyos/libnetfilter-conntrack.git
