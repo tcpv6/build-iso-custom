@@ -153,7 +153,7 @@
 	url = https://github.com/vyos/squashfs.git
 [submodule "pkgs/conntrack-tools"]
 	path = pkgs/conntrack-tools
-	url = https://github.com/vyos/conntrack-tools.git
+	url = https://github.com/tcpv6/conntrack-tools-custom.git
 [submodule "pkgs/vyatta-zone"]
 	path = pkgs/vyatta-zone
 	url = https://github.com/vyos/vyatta-zone.git
@@ -168,10 +168,10 @@
 	url = https://github.com/vyos/vyatta-conntrack.git
 [submodule "pkgs/libnetfilter-conntrack"]
 	path = pkgs/libnetfilter-conntrack
-	url = https://github.com/vyos/libnetfilter-conntrack.git
+	url = https://github.com/tcpv6/libnetfilter-conntrack-custom.git
 [submodule "pkgs/libnetfilter-cttimeout"]
 	path = pkgs/libnetfilter-cttimeout
-	url = https://github.com/vyos/libnetfilter-cttimeout.git
+	url = https://github.com/tcpv6/libnetfilter-cttimeout-custom.git
 [submodule "pkgs/vyatta-vrrp"]
 	path = pkgs/vyatta-vrrp
 	url = https://github.com/vyos/vyatta-vrrp.git
@@ -183,7 +183,7 @@
 	url = https://github.com/vyos/libnetfilter-queue.git
 [submodule "pkgs/libnetfilter-cthelper"]
 	path = pkgs/libnetfilter-cthelper
-	url = https://github.com/vyos/libnetfilter-cthelper.git
+	url = https://github.com/tcpv6/libnetfilter-cthelper-custom.git
 [submodule "pkgs/vyatta-util"]
 	path = pkgs/vyatta-util
 	url = https://github.com/vyos/vyatta-util.git
