@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+make conntrack-tools
+make libnetfilter-cthelper
+make libnetfilter-cttimeout
+make vyatta-cfg-system
+make vyatta-cfg-vpn
+make vyatta-conntrack-sync
+make vyatta-op-vpn
+
+munin_config_dir="./livecd/cache/stages_bootstrap/etc/munin/"
+[[ ! -e "./livecd/cache" ]] && make iso
+[[ ! -e "$munin_config_dir" ]] && mkdir $munin_config_dir
+
+cp -f mintel-munin-node.conf ${munin_config_dir}/munin-node.conf
+make iso
+
