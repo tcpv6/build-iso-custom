@@ -15,3 +15,10 @@ netcat-traditional
 mtr-tiny
 sipcalc
 screen
+fping
+libio-multiplex-perl
+libnet-cidr-perl
+libnet-server-perl
+munin-common
+munin-node
+munin-plugins-extra

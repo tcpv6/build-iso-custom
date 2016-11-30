@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+make conntrack-tools
+make libnetfilter-cthelper
+make libnetfilter-cttimeout
+make vyatta-cfg-system
+make vyatta-cfg-vpn
+make vyatta-conntrack-sync
+make vyatta-op-vpn
+
+mkdir ./cache/stages_bootstrap/etc/munin/
+cp mintel-munin-node.conf ./cache/stages_bootstrap/etc/munin/munin-node.conf
